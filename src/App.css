@@ -1,0 +1,62 @@
+.game-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.status {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+
+.square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  font-size: 36px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.square:hover {
+  background-color: #e0e0e0;
+}
+
+.square.winning {
+  background-color: #9bf8a0;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.theme-button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #b4e8b6;
+  color: #040101;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.reset-button:hover {
+  background-color: #45a049;
+}
