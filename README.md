@@ -1,3 +1,7 @@
+# Hosted Live Link
+
+This project is hosted at netlify (https://tic-tak-toe-dl.netlify.app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
